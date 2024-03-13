@@ -1,1 +1,7 @@
-Esse repositório GitHub foi feito unicamente e somente para uso dos alunos e orientadores do atual grupo do escritório criativo do Centro Territorial de Educação Profissional da Bacia do Rio Grande.
+echo "# CETEP_BRG-EC" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kauziin/CETEP_BRG-EC.git
+git push -u origin main
