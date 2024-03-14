@@ -16,4 +16,4 @@
 
 ## Javascript:
 
-[Aula JS 1](https://youtu.be/1-w1RfGIov4?si=VpGfv3J8oqqPhCvu)
+[Aula JS 1]https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&si=zaArL_P-heIQrfMU)
