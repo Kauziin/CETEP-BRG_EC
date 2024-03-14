@@ -1,4 +1,4 @@
-## Este é o arquivo cok os links disponíveis para as aulas.
+# Este é o arquivo com os links disponíveis para as aulas.
 
 ----------
 
@@ -14,6 +14,6 @@
 
 [PDF](https://www.cin.ufpe.br/~dfop/Arquivos/Pacote%20Web/HTML5%20e%20CSS3%20com%20Farinha%20e%20Pimenta%20Diego%20Eis%20e%20Elcio%20Ferreira.pdf)
 
-Javascript:
+## Javascript:
 
 [Aula JS 1](https://youtu.be/1-w1RfGIov4?si=VpGfv3J8oqqPhCvu)
