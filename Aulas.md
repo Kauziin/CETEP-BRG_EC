@@ -16,4 +16,4 @@
 
 ## Javascript:
 
-[Aula JS 1]https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&si=zaArL_P-heIQrfMU)
+[Aula JS 1]https://acesse.dev/JAVASCRIPT
