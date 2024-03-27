@@ -10,7 +10,7 @@ Ele será utilizado para compartilhar os códigos, BDs, testes, links e outros d
 
 As linguagens principais utilizadas serão HTML, CSS e Javascript.
 
-## - Onde encontrar nateriais de estudo?
+## - Onde encontrar materiais de estudo?
    
    Ao entrar em "Aulas", você pode encontrar alguns vídeos e/ou documentos. Apesar disso, vos apresento todos os atuais materiais de estudo:
 
