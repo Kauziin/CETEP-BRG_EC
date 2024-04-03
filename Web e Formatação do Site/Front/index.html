@@ -1,63 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- O cod a seguir foi feito para preview em tema escuro. Mude as cores para corresponder ao tema claro E a plaeta de cores do escritório.-->
-  <style>
-    popup
-      {
-      background-color:yellow; color:solid white; border: 1px solid white; margin: 4px; padding: 12px
-      }
-    h1 
-      {
-      font-family:arial; color:orange; text-align:center
-      }
-    h2
-      {
-      font-family:arial; color:orange; text-align:center
-      }
-    h3
-      {
-      font-family:arial; color:orange; text-align:left; padding:4px
-      }
-    p
-     {
-     font-family:calibri;color:white; text-align:left; padding:8px; font-size:18px
-     }
-    body {background-color:black}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens de Aventura</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="refresh" content="1">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to top left, #69dcd9, #fb8f20, #ffef03);
+    filter: blur(10px);
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: rgba(255, 165, 0, 0);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
     </style>
-    <!-- Remova o código abaixo quando hospedar.>
-    <meta http-equiv="refresh" content="1"-->
 </head>
 <body>
-  <b>
-  <h1 style="padding:30px">
-      ESCRITÓRIO CRIATIVO
-  </h1>
-  </b>
-  <h2>
-      O não sei o que lá das realidade.
-  </h2>
-  <p>
-      O principal objetivo do Escritório Criativo é transformar as ideias dos estudantes em reais utilidades para todos os envolvidos. Isso é, fornecer serviços e trabalhar em projetos que podem ajudar tanto os alunos quantos cidadãos no geral.
-  </p>
-  <h3>
-      COMO FUNCIONA O ESPAÇO?
-  </h3>
-  <p>
-      O espaço do Escritório Criativo funciona como o principal local de atividades e das realizações dos membros ingressados no programa.
-  </p>
-  <h3>
-      BLÁ BLÁ BLÁ
-  </h3>
-  <p>Esse popup é para mostrar o quão tedioso é escrever essa porcaria. Sinceramente, odeio tudo e todos.
-  </p>
-  <popup>
-    <h3>TESTE DE CLASSIFICAÇÃO ADMINISTRAÇÃO</h3>
-    <p> Esta caixa foi feita visando buscar melhor identificação do código 'div' no HTML. Ignore ou utilize como balão de informação. Se for ignorar ou  ocultar do resultado final, use comentário para esconder esse elemento.
-    </p>
-  </popup>
+    <div class="background"></div>
+    <header>
+        <h1>Viagens de Aventura</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Contate-nos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>O que é o Escritório Criativo?</h2>
+            <p>O Escritório Criativo é um espaço dedicado para os alunos realizarem seus prórprios projetos.</p>
+        </section>
+        <section>
+            <h2>Atividades</h2>
+            <p>Pratique atividades radicais como rapel, paraquedismo e muito mais!</p>
+        </section>
+        <section>
+            <h2>Sobre</h2>
+            <p>Saiba mais sobre nossa empresa e nossa missão de proporcionar experiências inesquecíveis.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Escritório Criativo do Projeto Pré-Empreendimento Junior do Centro de Educação Profissional da Bacia do Rio Grande</p>
+    </footer>
+
 </body>
 </html>
